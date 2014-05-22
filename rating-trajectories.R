@@ -84,3 +84,4 @@ print(proc.time() - ptm)
 resdt <- rbindlist(resdts)
 
 saveRDS(resdt, 'traj-month.Rds')
+write.csv(resdt, 'traj-month.csv')
